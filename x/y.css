@@ -1,0 +1,41 @@
+.destacado{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    
+}
+
+.parrafo1{
+    color: blue;
+    padding: 30px;
+    text-align: justify;
+}
+
+.parrafo2{
+    color: green;
+    margin: auto;
+    text-align: left;
+}
+
+.parrafo3{
+    color: red;
+    margin: auto;
+    text-align: center;
+}
+
+.parrafo4{
+    color: brown;
+    margin: auto;
+    text-align: right;
+}
+
+.parrafo5{
+    margin: auto;
+    color:blueviolet;
+    text-align: justify;
+}
+
+.n{
+    margin: auto;
+    color: black;
+}
