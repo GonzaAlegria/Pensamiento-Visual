@@ -5,6 +5,9 @@
         <meta charset="UTF-8" \>
         <title>Actividad práctica ayudantía 3 </title>
         <h1>Actividad ayudantía 3: Perritos y Gatitos</h1>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="js.js"></script>
+
     </head>
 
 <body>
@@ -25,7 +28,7 @@
 
     <h3>Razas que me gustan uwu</h3>
     <div class="parrafo1"> 
-        <h4 class="n">Gatitos</h4>   
+        <h4 class="n"><br>Gatitos</h4>
         <p>  La verdad me gustan de todas las razas, todos los colores, pero hay unos en particular que me causan
         mayor ternura y sorpresa ver, ya que algunos no son muy comunes.
         <br>
@@ -33,27 +36,41 @@
             Hay una raza en particular de gatos que me gusta mucho, que son los gatos persa uwu, aqui una fotito</p>
         <h5>Persa</h5>
         <img src="https://mascotasegura.es/wp-content/uploads/2022/03/gato-persa-min.jpg.webp" width="300">
+    </div>
     <div class="parrafo2">
         <p>Otros gatitos que me gustan mucho son los Fold escocés, de hecho en instagram siempre me aparecen como recomendación perfiles que suben cosas de esta 
         raza de gatitos, son demasiado tiernos :(</p>
         <h5>Fold escocés</h5>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Scottish_fold_cat.jpg/1024px-Scottish_fold_cat.jpg" width="300">
-
+    </div>
     <h4 class="n">Perritos</h4>
     <div class="parrafo3">
         <p>Hay muchos tipos de perritos que me encantan, pero los shar pei me superan :( tengo una bebé de esta raza que se llama shayra 
             y sus rollitos me encantan :')</p>
         <h5>Shar pei</h5>
         <img src="https://wakyma.com/blog/wp-content/uploads/2016/10/el-perro-shar-pei-770x460.jpg" width="300">
-
+    </div>
     <div class="parrafo4">
         <p>Otra raza de perritos que me encanta es shiba inu. Esta raza de perros es la del perro del meme "Cheems", además de que existe una
             criptomoneda con el nombre de esta raza
         </p>
         <h5>Shiba inu</h5>
         <img src="https://observatorioblockchain.com/wp-content/uploads/2021/10/Shiba-Inu-sube-400-este-mes-y-pasa-a-ser-la-decimotercera-criptomoneda-del-mercado.jpg" width="300">
+    </div>
 
-    <div class="parrafo5">
-            <p>Los animales son simplemente espectaculares :')</p>
+    <button id="ocultar">¡Presioname!</button>
+    <div class="parrafo5" id="disparador">
+        
+        <p>Los animales son simplemente espectaculares :')</p>
+    </div>
+
+    <div class="parrafo6" id="hola">
+        
+        <p>Yo tengo dos perritas, una shar pei y una mestiza (Pasa el puntero por encima del texto para mas información uwu)</p>
+    </div>
+
+    <div class="enlace" id="enlace" onmouseover="porencima(this)" onmouseout="alquitar(this)">
+        <p> Esta fue mi pagina web de perros y gatos, espero les guste uwu (pasa el puntero por encima de este texto jeje)</p>
+    </div>
 
 </body>
